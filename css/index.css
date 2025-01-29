@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -423,47 +424,6 @@
 
 .w-25 {
   width: 25%;
-}
-
-.s-0 {
-  margin: 0;
-  padding: 0;
-}
-
-.mt-110 {
-  margin-top: 110px;
-}
-@media screen and (max-width: 960px) {
-  .mt-110 {
-    margin-top: 0px;
-  }
-}
-
-.mt-80 {
-  margin-top: 88px;
-}
-@media screen and (max-width: 960px) {
-  .mt-80 {
-    margin-top: 64px;
-  }
-}
-
-.ml-40 {
-  margin-left: 40px;
-}
-@media screen and (max-width: 960px) {
-  .ml-40 {
-    margin-left: 4px;
-  }
-}
-
-.space-220 {
-  padding: 220px 24px;
-}
-@media screen and (max-width: 960px) {
-  .space-220 {
-    padding: 96px 16px;
-  }
 }
 
 .m-0 {
@@ -1064,6 +1024,392 @@
 .py-9 {
   padding-top: 128px !important;
   padding-bottom: 128px !important;
+}
+
+.h0 {
+  font-family: "Rubik", sans-serif;
+  font-size: 120px;
+  line-height: 120%;
+  font-weight: 500;
+}
+@media screen and (max-width: 960px) {
+  .h0 {
+    font-family: "Rubik", sans-serif;
+    font-size: 88px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 340px) {
+  .h0 {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
+
+h1 {
+  color: #D8DBE3;
+  z-index: 5;
+  font-family: "Rubik", sans-serif;
+  font-size: 80px;
+  line-height: 100%;
+  font-weight: 500;
+}
+@media screen and (max-width: 960px) {
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 56px;
+    line-height: 110%;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 340px) {
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
+
+h2 {
+  color: #D8DBE3;
+  font-family: "Rubik", sans-serif;
+  font-size: 64px;
+  line-height: 110%;
+  font-weight: 300;
+}
+@media screen and (max-width: 960px) {
+  h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 340px) {
+  h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 300;
+  }
+}
+
+h3 {
+  color: #D8DBE3;
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 300;
+}
+@media screen and (max-width: 960px) {
+  h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 340px) {
+  h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: 300;
+  }
+}
+
+h4 {
+  color: #D8DBE3;
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 300;
+}
+@media screen and (max-width: 960px) {
+  h4 {
+    font-family: "Rubik", sans-serif;
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 340px) {
+  h4 {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 300;
+  }
+}
+
+h5 {
+  color: #D8DBE3;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+  font-weight: 300;
+}
+@media screen and (max-width: 960px) {
+  h5 {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 300;
+  }
+}
+
+h6 {
+  color: #D8DBE3;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 100;
+}
+@media screen and (max-width: 960px) {
+  h6 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 100;
+  }
+}
+
+.h7 {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 100;
+}
+@media screen and (max-width: 960px) {
+  .h7 {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 100;
+  }
+}
+
+p {
+  letter-spacing: 0px;
+  color: #717274;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+}
+@media screen and (max-width: 960px) {
+  p {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+@media screen and (max-width: 340px) {
+  p {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.p1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+@media screen and (max-width: 960px) {
+  .p1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 340px) {
+  .p1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+}
+
+.p2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 200;
+}
+@media screen and (max-width: 960px) {
+  .p2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+.p3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+}
+@media screen and (max-width: 960px) {
+  .p3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+.p4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 200;
+}
+@media screen and (max-width: 960px) {
+  .p4 {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 200;
+  }
+}
+
+.p5 {
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 200;
+}
+@media screen and (max-width: 960px) {
+  .p5 {
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 200;
+  }
+}
+
+.p-title {
+  font-size: 18px;
+}
+@media screen and (max-width: 960px) {
+  .p-title {
+    font-size: 16px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+  color: #D8DBE3;
+}
+
+span {
+  position: relative;
+  display: inline-block;
+  color: #1B69D2;
+}
+
+.letter-h1 {
+  color: #E8EBF0;
+  letter-spacing: 1px;
+  text-transform: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 80px;
+  line-height: 100%;
+  font-weight: 500;
+}
+@media screen and (max-width: 960px) {
+  .letter-h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 56px;
+    line-height: 110%;
+    font-weight: 500;
+  }
+}
+
+strong {
+  color: #06090F;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 200;
+}
+@media screen and (max-width: 960px) {
+  strong {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+b {
+  color: #2B2B2C;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.h-xl {
+  color: #E8EBF0;
+  font-family: "Rubik", sans-serif;
+  font-size: 120px;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 240px;
+}
+@media screen and (max-width: 960px) {
+  .h-xl {
+    font-family: "Rubik", sans-serif;
+    font-size: 88px;
+    line-height: 120%;
+    font-weight: 500;
+    font-size: 144px;
+  }
+}
+
+.h-l {
+  color: #E8EBF0;
+  font-family: "Rubik", sans-serif;
+  font-size: 120px;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 144px;
+}
+@media screen and (max-width: 960px) {
+  .h-l {
+    font-family: "Rubik", sans-serif;
+    font-size: 88px;
+    line-height: 120%;
+    font-weight: 500;
+    font-size: 96px;
+  }
 }
 
 html {
