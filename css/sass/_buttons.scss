@@ -1,0 +1,59 @@
+.btn{
+  display: inline-block;
+  color: $white-light;
+
+  padding: 12px 34px;
+
+  background: linear-gradient(225deg, #5390E3 8.12%, #1357B3 92.21%);
+
+  border-radius: 4px;
+}
+
+
+a{
+  text-decoration: none;
+
+  @include typeface-2(p3, desktop);
+
+  color: $white-light;
+
+  transition: .4s ease;
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+input{
+  accent-color: $primary-normal;
+}
+
+input, select, option, textarea{
+  padding: 10px 12px;
+  background-color: $black-light;
+
+  border: 0;
+  border-radius: 4px;
+  width: 100%;
+
+  color: $white-light;
+  @include typeface-2(p3, desktop)
+}
+
+.btn-search{
+  cursor: pointer;
+  height: 48px;
+  width: 56px;
+
+
+  background-image: url(../assets/svg/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  // para juntar o botao para o eixo x
+  transform: translate3d(-6px,0,0);
+
+  background-color: $black-light;
+  border: 0;
+  border-radius: 4px;
+}

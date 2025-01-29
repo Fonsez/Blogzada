@@ -48,6 +48,12 @@ svg,img{
   //height: auto;
 }
 
+.desktop-only{
+  @include responsive(s){
+    display: none;
+  }
+}
+
 @import 'sass/menu';
 @import 'sass/icons';
 @import 'sass/buttons';
