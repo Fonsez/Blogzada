@@ -1445,4 +1445,86 @@ body::-webkit-scrollbar-thumb {
 
 svg, img {
   width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #151B26;
+}
+header nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav .menu {
+  list-style: none;
+  display: flex;
+}
+header nav .menu li {
+  margin-left: 24px;
+}
+@media screen and (max-width: 960px) {
+  header nav .menu {
+    display: none;
+  }
+}
+header .logo {
+  max-width: 64px;
+  min-width: 48px;
+}
+header .bx {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  header .bx {
+    display: block;
+  }
+}
+header .bx::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  border-radius: 2px;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background-color: #F7F9FC;
+}
+header .bx::before {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  border-radius: 2px;
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background-color: #F7F9FC;
+}
+header .cta-desktop {
+  display: block;
+}
+@media screen and (max-width: 960px) {
+  header .cta-desktop {
+    display: none;
+  }
+}
+header .cta-mobile {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  header .cta-mobile {
+    display: block;
+  }
 }/*# sourceMappingURL=index.css.map */
