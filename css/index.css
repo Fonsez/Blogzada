@@ -1453,6 +1453,31 @@ svg, img {
   }
 }
 
+.menu-mobile {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0F141F;
+}
+.menu-mobile .nav-mobile {
+  transition: 0.5s ease;
+}
+.menu-mobile li {
+  border-bottom: 1px solid #151B26;
+}
+.menu-mobile li .link-menu-mobile {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 24px 16px 24px 16px;
+}
+.menu-mobile li .link-menu-mobile:hover {
+  background-color: #151B26;
+  padding: 24px 16px 24px 24px;
+}
+
 .btn {
   display: inline-block;
   color: #F7F9FC;
