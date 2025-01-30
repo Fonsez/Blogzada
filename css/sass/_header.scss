@@ -59,6 +59,7 @@ header{
       height: 2px;
       display: block;
       border-radius: 2px;
+      transition: .5s ease;
 
       position: absolute;
       top: 35%;
@@ -82,13 +83,52 @@ header{
       left: 60%;
 
       transform: translate(-50%, -50%);
+      transition: .5s ease;
 
       background-color: $white-light;
     }
   }
   // fim hamburger
 
-
+  & .bx.active{
+    &::after{
+      content: '';
+      width: 70%;
+      height: 2px;
+      display: block;
+      border-radius: 2px;
+      
+  
+  
+      position: absolute;
+      top: 50%;
+      left: 50%;
+  
+      transform: translate(-50%, -50%) rotate(135deg);
+      transition: .5s ease;
+  
+      background-color: $white-light;
+    }
+  
+  
+    &::before{
+      content: '';
+      width: 70%;
+      height: 2px;
+      display: block;
+      border-radius: 2px;
+      
+  
+      position: absolute;
+      top: 50%;
+      left: 50%;
+  
+      transform: translate(-50%, -50%) rotate(-315deg);
+      transition: .5s ease;
+  
+      background-color: $white-light;
+    }
+  }
 
 
   // buttons cta
