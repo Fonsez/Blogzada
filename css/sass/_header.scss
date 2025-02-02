@@ -11,6 +11,8 @@ header{
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px); // Suporte para Safari
 
+  position: fixed;
+  z-index: 999;
 
   & nav{
     display: flex;
