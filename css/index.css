@@ -1826,6 +1826,7 @@ svg, img {
   position: absolute;
   top: 0;
   left: -100%;
+  z-index: 999;
   background-color: #0F141F;
   transition: 0.7s ease;
 }
@@ -2101,4 +2102,57 @@ header .cta-mobile {
 
 .br-gray {
   border-right: 2px solid #0F141F;
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.profile-big {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: 2px solid #1B69D2;
+}
+
+.card {
+  border: 1px solid #151B26;
+  border-radius: 4px;
+  background-color: rgba(15, 20, 31, 0);
+  transition: 0.2s ease;
+}
+.card:hover {
+  background-color: rgba(15, 20, 31, 0.2);
+}
+
+.thumb img {
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+.thumb:hover img {
+  transform: scale(1.1);
+}
+
+.img-banner {
+  width: 100%;
+  max-height: 420px;
+  background-color: #0F141F;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-banner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.7s ease;
+}
+.img-banner:hover img {
+  transform: scale(1.025);
 }/*# sourceMappingURL=index.css.map */
