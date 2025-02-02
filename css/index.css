@@ -2062,12 +2062,6 @@ header .cta-mobile {
   }
 }
 
-@media screen and (max-width: 960px) {
-  .img-hero {
-    width: 75%;
-  }
-}
-
 .bb-black {
   border-bottom: 1px solid #151B26;
 }

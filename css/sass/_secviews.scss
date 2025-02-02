@@ -24,23 +24,29 @@
   }
 }
 
+
+// seção banner
 .img-banner{
   width: 100%;
+  // sensação de mais retangular
   max-height: 420px;
 
   background-color: $black-normal;
   border-radius: 4px;
 
+  // centraliza a imagem dentro dele flex-center
   display: flex;
   justify-content: center;
   align-items: center;
 
+  // se adapta ao tamanho da div
   img{
     object-fit: cover;
     
     transition: .7s ease;
   }
 
+  // aumenta tamanho
   &:hover{
     img{
       transform: scale(1.025);
