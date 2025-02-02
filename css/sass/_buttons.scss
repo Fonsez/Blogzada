@@ -84,6 +84,10 @@ a {
   color: $primary-normal;
 }
 
+select, option{
+  height: 48px;
+}
+
 input{
   accent-color: $primary-normal;
 }

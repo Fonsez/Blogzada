@@ -1977,6 +1977,10 @@ a:hover {
   color: #1B69D2;
 }
 
+select, option {
+  height: 48px;
+}
+
 input {
   accent-color: #1B69D2;
 }
